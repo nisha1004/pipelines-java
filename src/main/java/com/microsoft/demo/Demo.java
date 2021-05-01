@@ -31,7 +31,7 @@ public class Demo {
     public static WebDriver driver;
     
     public void LaunchBrowser() {
-    	System.setProperty("webdriver.chrome.driver","C:\\Users\\Raunak\\Downloads\\chromedriver_win32\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver","C:\\ChromeDriver\\chromedriver.exe");
     	driver=new ChromeDriver();
     	driver.manage().window().maximize();
     	
